@@ -102,7 +102,7 @@ As we can see in the results, the combination of the medium whisper model with a
 
 At the end, most of the weight of the project building and maintaning fell on Huggingface, since that was our primary source for getting the transformers, saving our features and models, as well as running our gradio app.
 
-*Group 57*
+*Group 51*
 
 
 *Victor Lopo Martinez*
