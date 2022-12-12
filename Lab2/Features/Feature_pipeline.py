@@ -198,7 +198,7 @@ from transformers import WhisperFeatureExtractor
 
 # chunk lenght decides the audio length
 # feature_extractor = WhisperFeatureExtractor.from_pretrained("openai/whisper-small", chunk_length=10)
-feature_extractor = WhisperFeatureExtractor.from_pretrained("openai/whisper-small")
+feature_extractor = WhisperFeatureExtractor.from_pretrained("openai/whisper-medium")
 
 """### Load WhisperTokenizer
 
@@ -211,7 +211,7 @@ label sequences:
 from transformers import WhisperTokenizer
 
 # tokenizer = WhisperTokenizer.from_pretrained("openai/whisper-small", language="Galician", task="transcribe", chunk_length=10)
-tokenizer = WhisperTokenizer.from_pretrained("openai/whisper-small", language="Galician", task="transcribe")
+tokenizer = WhisperTokenizer.from_pretrained("openai/whisper-medium", language="Galician", task="transcribe")
 
 """### Prepare Data
 
