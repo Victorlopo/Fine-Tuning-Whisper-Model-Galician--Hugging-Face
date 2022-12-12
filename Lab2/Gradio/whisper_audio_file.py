@@ -25,7 +25,7 @@ pipe = pipeline(model="Victorlopo21/whisper-medium-gl-30")
 #pipe = pipeline(model="marvmk/whisper-small-gl")  # change to "your-username/the-name-you-picked"
 
 def transcribe(audio):
-    text = pipe(audio, chunk_length=10)['text']
+    text = pipe(audio)['text']
     return text
 
 iface = gr.Interface(
