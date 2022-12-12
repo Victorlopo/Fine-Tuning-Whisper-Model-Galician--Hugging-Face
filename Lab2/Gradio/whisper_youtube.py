@@ -24,12 +24,12 @@ import os
 
 from transformers import WhisperProcessor
 
-processor = WhisperProcessor.from_pretrained("openai/whisper-small", language="Galician", task="transcribe")
+processor = WhisperProcessor.from_pretrained("openai/whisper-medium", language="Galician", task="transcribe")
 
 
 from transformers import WhisperTokenizer
 
-tokenizer = WhisperTokenizer.from_pretrained("openai/whisper-small", language="Galician", task="transcribe")
+tokenizer = WhisperTokenizer.from_pretrained("openai/whisper-medium", language="Galician", task="transcribe")
 
 """## Building a Demo
 
