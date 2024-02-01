@@ -1,4 +1,4 @@
-# ScalableLab2
+# Fine Tuning of a Whisper Model for Galician
 
 On this second lab of Scalable Machine Learning and Deep learning we fine tuned a Whisper model using the blog post on https://huggingface.co/blog/fine-tune-whisper for Galician, a language spoken on the north of Spain. We started by following the steps as prepared on the blog, and later made some improvements on feature extraction, training and UI. 
 
