@@ -95,17 +95,9 @@ The results of Model 2 over the training and validation sets are summarized in t
 ![image](https://user-images.githubusercontent.com/73105766/206698201-76537697-f534-4f68-87c6-d799f7cd4ad8.png)
 
 
-As we can see in the results, the combination of the medium whisper model with a learning rate scheduler and weight decay outperforms the initial Model 1. In this way, Model 2 has been used in the 3 Gradio applications that have been created in this Lab.
+As we can see in the results, the combination of the medium whisper model with a learning rate scheduler and weight decay outperforms the initial Model 1. In this way, Model 2 has been used in the 3 Gradio applications that have been created.
 
 
 
 
-At the end, most of the weight of the project building and maintaning fell on Huggingface, since that was our primary source for getting the transformers, saving our features and models, as well as running our gradio app.
-
-*Group 51*
-
-
-*Victor Lopo Martinez*
-
-
-*Marvin Kercini*
+At the end, most of the weight of the project building and maintaning fell on Huggingface, since that was our primary source for getting the transformers, saving our features and models, as well as running the gradio app.
